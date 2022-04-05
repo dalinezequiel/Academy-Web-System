@@ -17,10 +17,61 @@ body{
 
 .container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.first-logo{
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-logo h2{
+    color: white;
+    letter-spacing: 5px;
+}
+
+.first-logo h2 b{
+    border-radius: 5px;
+    padding: 3px;
+    color: rgb(204, 181, 53);
+    font-weight: bold;
+}
+
+.first-nav{
+    margin-right: 100px;
+}
+
+.first ul{
+    display: flex;
+}
+
+.first li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+}
+
+.first li a{
+    text-decoration: none;
+    padding: 4px 15px 4px 15px;
+    color: white;
+}
+
+.first li a:hover{
+    color: rgb(204, 181, 53);
+    transition: 1s;
 }
 
 .second{
