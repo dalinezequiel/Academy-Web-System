@@ -3,14 +3,16 @@
 body{
     margin: 0px;
     overflow: hidden;
+    background-image: url("../_img/sky.jpg");
+    background-size: cover;
 }
 
 .popin{
     font-family: 'Poppins', sans-serif;
 }
 
-.copcol{
-    color: red;
+#cop{
+    color: rgb(60, 72, 109);
 }
 
 .container{
@@ -36,7 +38,7 @@ body{
     background-color: rgb(41, 57, 99);
     padding: 30px 35px;
     border-radius: 10px;
-    box-shadow: 4px 4px 4px rgb(123, 170, 231);
+    border: 2px solid rgb(40, 60, 109);
 }
 
 .login div h1{
@@ -68,7 +70,7 @@ body{
     background-color: rgb(204, 181, 53);
     font-weight: 800;
     letter-spacing: 2px;
-    box-shadow: 0px 10px 12px -12px rgb(204, 181, 53);;
+    box-shadow: 0px 10px 12px -12px rgb(204, 181, 53);
 }
 
 .spacing{
