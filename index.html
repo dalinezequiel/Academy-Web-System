@@ -29,15 +29,13 @@
                 <div>
                     <h1 class="popin">LOGIN</h1>
                 </div>
-                <form>
+                <form action="" method="post" onsubmit="">
                     <label class="popin" for="">Usuário</label>
-                    <input class="spacing" type="text" name="user" placeholder="Digite o usuário">
+                    <input class="spacing" type="text" id="user" name="user" placeholder="Digite o usuário">
                     <label class="popin" for="">Senha</label>
-                    <input class="spacing" type="password" name="senha" placeholder="Digite a senha">
-                    <input class="spacing" onclick="entrar()" type="submit" value="Entrar" name="entrar">
+                    <input class="spacing" type="password" id ="senha" name="senha" placeholder="Digite a senha">
                 </form>
-                <button style="padding: 10px;"onclick="entrar()">Clicar</button>
-                <!--<p class="popin">Ainda não tem conta?<a href="#">Criar conta</a></p>-->
+                <input class="spacing" onclick="entrar()" type="submit" value="Entrar" name="entrar">
                 <p class="popin" id="cop">&copy;2022. Dalin Academy</p>
             </div>
         </div>
