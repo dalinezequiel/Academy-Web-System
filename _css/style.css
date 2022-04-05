@@ -49,6 +49,11 @@ body{
     font-weight: bold;
 }
 
+.first-logo a{
+    text-decoration: none;
+    color: white;
+}
+
 .first-nav{
     margin-right: 100px;
 }
@@ -75,8 +80,6 @@ body{
 }
 
 #register{
-    /*border-radius: 15px;
-    background-color: rgb(204, 181, 53);*/
     color: rgb(109, 109, 109);
 }
 
@@ -127,7 +130,7 @@ body{
     font-weight: 400;
 }
 
-.second input[type="submit"]{
+.btn-submit{
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     color: white;
@@ -172,4 +175,40 @@ body{
         opacity: 1;
         transform: scale(1);
     }
+}
+
+/*REGISTER PAGE*/
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(41, 57, 99);
+    padding: 30px 40px 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(40, 60, 109);
+    margin-bottom: 50px;
+}
+
+.space{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.formulario h3{
+    color: rgb(204, 181, 53);
+}
+
+.btn-create {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: rgb(204, 181, 53);;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    box-shadow: 0px 10px 12px -12px rgb(204, 181, 53);
 }
