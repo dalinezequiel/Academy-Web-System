@@ -74,8 +74,15 @@ body{
     transition: 1s;
 }
 
-.register{
+#register{
+    border-radius: 15px;
+    background-color: rgb(204, 181, 53);
+    color: white;
+}
+
+#register:hover{
     color: rgb(204, 181, 53);
+    background-color: rgb(41, 57, 99);
 }
 
 .second{

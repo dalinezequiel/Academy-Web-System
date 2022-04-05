@@ -8,6 +8,7 @@
     <title>Login Form</title>
 </head>
 <body>
+    <script src="_javascript/script.js"></script>
     <div class="container">
         <div class="first">
             <div class="first-logo">
@@ -18,7 +19,7 @@
                     <ul>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Help</a></li>
-                        <li><a href="#" class="register">Register</a></li>
+                        <li><a href="#" id="register">Register</a></li>
                     </ul>
                 </nav>
             </div>
@@ -32,9 +33,10 @@
                     <label class="popin" for="">Usuário</label>
                     <input class="spacing" type="text" name="user" placeholder="Digite o usuário">
                     <label class="popin" for="">Senha</label>
-                    <input class="spacing" type="password" name="user" placeholder="Digite a senha">
-                    <input class="spacing" type="submit" value="Entrar" name="entrar">
+                    <input class="spacing" type="password" name="senha" placeholder="Digite a senha">
+                    <input class="spacing" onclick="entrar()" type="submit" value="Entrar" name="entrar">
                 </form>
+                <button style="padding: 10px;"onclick="entrar()">Clicar</button>
                 <!--<p class="popin">Ainda não tem conta?<a href="#">Criar conta</a></p>-->
                 <p class="popin" id="cop">&copy;2022. Dalin Academy</p>
             </div>
