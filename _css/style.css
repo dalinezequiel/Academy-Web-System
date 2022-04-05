@@ -75,14 +75,14 @@ body{
 }
 
 #register{
-    border-radius: 15px;
-    background-color: rgb(204, 181, 53);
-    color: white;
+    /*border-radius: 15px;
+    background-color: rgb(204, 181, 53);*/
+    color: rgb(109, 109, 109);
 }
 
 #register:hover{
     color: rgb(204, 181, 53);
-    background-color: rgb(41, 57, 99);
+    transition: 1s;
 }
 
 .second{
@@ -101,6 +101,7 @@ body{
     padding: 30px 35px;
     border-radius: 10px;
     border: 2px solid rgb(40, 60, 109);
+    margin-bottom: 50px;
 }
 
 .login div h1{
