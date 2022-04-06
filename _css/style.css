@@ -118,7 +118,7 @@ body{
     flex-direction: column;
 }
 
-.second form input{
+.second form input, .country{
     outline: none;
     border: none;
     border-radius: 5px;
@@ -167,6 +167,11 @@ body{
     animation-duration: 1.5s;
 }
 
+.first{
+    animation-name: anima;
+    animation-duration: 2s;
+}
+
 @keyframes anima{
     from{
         opacity: 0;
@@ -211,4 +216,13 @@ body{
     font-weight: 400;
     letter-spacing: 2px;
     box-shadow: 0px 10px 12px -12px rgb(204, 181, 53);
+}
+
+.must{
+    color: rgb(204, 181, 53);
+}
+
+.country{
+    padding: 10px;
+    margin-bottom: 15px;
 }
