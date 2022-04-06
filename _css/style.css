@@ -226,3 +226,11 @@ body{
     padding: 10px;
     margin-bottom: 15px;
 }
+
+/*CONTACT PAGE*/
+.area{
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+}
