@@ -26,13 +26,3 @@ function user_pass(user, pass)
         window.alert("Username or password is incorrect!");
     }
 }
-function color_select()
-{
-    let _verf = document.getElementById("country").value;
-    if(_verf == "Choose a country")
-    {
-        document.getElementById("country").style.backgroundColor = "red";
-   }else{
-        document.getElementById("country").style.backgroundColor = "blue";
-   }
-}
