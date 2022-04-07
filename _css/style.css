@@ -2,7 +2,7 @@
 
 body{
     margin: 0px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-image: url("../_img/sky.jpg");
     background-size: cover;
 }
@@ -80,7 +80,7 @@ body{
 }
 
 #register{
-    color: rgb(109, 109, 109);
+    color: white;
 }
 
 #register:hover{
@@ -172,7 +172,7 @@ body{
     animation-duration: 1.5s;
 }
 
-.first{
+.first, .pacote, .plan-titule, .rodape{
     animation-name: anima;
     animation-duration: 2s;
 }
@@ -258,19 +258,79 @@ body{
     width: 100vw;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 60px;
     justify-content: center;
-    background-color: red;
+    flex-wrap: wrap;
+}
+
+.pacote h4{
+    color: white;
 }
 
 .basic, .advanced, .profissional{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     font-family: 'Poppins', sans-serif;
     height: 350px;
-    width: 250px;
-    margin: 20px;
-    background-color: white;
+    width: 200px;
+    margin: 0px 15px 0px 15px;
+    padding: 15px 25px 15px 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(41, 57, 99);
+    border: 2px solid rgb(40, 60, 109);
+}
 
+.select-plan{
+    text-decoration: none;
+    background-color: rgb(168, 145, 16);
+    padding: 5px 50px;
+    color: white;
+    border-radius: 2px;
+    border-radius: 25px;
+    margin-bottom: 35px;
+}
+
+.select-plan:hover{
+    background-color: rgb(204, 181, 53);
+    transition: 1s;
+}
+
+.price p{
+    padding: 0px;
+    color: green;
+    font-size: 18px;
+}
+
+.price-number{
+    font-size: 38px;
+    color: black;
+}
+
+.price-det{
+    font-size: 15px;
+}
+
+.validad{
+    color: rgb(80, 95, 139);
+    padding: 15px 0px;
+    font-weight: 500;
+}
+
+.plan-titule{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(204, 181, 53);
+}
+.pacote h4, .plan-titule h3{
+    font-weight: 400;
+}
+
+.rodape{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
 }
