@@ -1,29 +1,38 @@
-function entrar(){
-    let user, pass, element;
-    user = document.getElementById("user").value;
-    pass = document.getElementById("senha").value;
-
-    element = document.getElementById("user");
-    /*element.style.border = "2px solid red";*/
-
-    if(user.length > 0)
-    {
-        user_pass(user, pass);
-    }else
-    {
-        window.alert("The fields are empty. Check it!");
-    }
-}
-
-function user_pass(user, pass)
+function entrar()
 {
+    let user, pass;
+
     let _user = "admin";
     let _pass = "123";
 
-    if(_user == user && _pass == pass)
+    user = document.getElementById("user").value;
+    pass = document.getElementById("senha").value;
+
+    var element = document.getElementById("erro");
+    element.style.padding = "5px";
+
+    var text;
+    
+    if(user.length > 0 && pass.length > 0)
     {
-        window.alert("Logado com sucesso!");
-    }else{
-        window.alert("Username or password is incorrect!");
+        if(_user == user && _pass == pass)
+        {
+            element.style.backgroundColor = "rgb(19, 192, 19)";
+            text = "Access granted!";
+            element.innerHTML = text;
+        }else{
+            element.style.backgroundColor = "#fe8b8e";
+            text = "Username or password is incorrect!";
+            element.innerHTML = text;
+        }
+        return true;
+    }else
+    {
+        element.style.backgroundColor = "#fe8b8e";
+        text = "The fields are empty. Check it!";
+        element.innerHTML = text;
+        return false;
     }
+    return false;
+    
 }

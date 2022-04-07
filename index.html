@@ -30,14 +30,16 @@
                 <div>
                     <h1 class="popin">LOGIN</h1>
                 </div>
-                <form action="" method="post" onsubmit="">
+                <form onsubmit="return entrar()">
                     <label class="popin" for="">Username</label>
                     <input class="spacing af" type="text" id="user" name="user" placeholder="Enter your username">
                     <label class="popin" for="">Password</label>
                     <input class="spacing" type="password" id ="senha" name="senha" placeholder="Enter your password">
+
+                    <div id = "erro"></div>
+                    <input class="spacing btn-submit" type="submit" value="Sign in">
+                    <p class="popin" id="cop">&copy;2022. Dalin Academy</p>
                 </form>
-                <input class="spacing btn-submit" onclick="entrar()" type="submit" value="Sign in" name="entrar">
-                <p class="popin" id="cop">&copy;2022. Dalin Academy</p>
             </div>
             <div class="third">
                 <p>By creating an account you agree to the <a href="">Terms of Services.</a> For more information about Dalin Academy privacy pratices see the <a href="">Dalin Academy Statement.</a></p>

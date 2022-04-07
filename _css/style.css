@@ -4,6 +4,7 @@ body{
     margin: 0px;
     background-image: url("../_img/sky.jpg");
     background-size: cover;
+    overflow: hidden;
 }
 
 .popin{
@@ -32,7 +33,7 @@ body{
 }
 
 .first-logo{
-    margin-left: 100px;
+    margin-left: 150px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -54,7 +55,7 @@ body{
 }
 
 .first-nav{
-    margin-right: 100px;
+    margin-right: 150px;
 }
 
 .first ul{
@@ -116,8 +117,14 @@ body{
     font-size: 18px;
 }
 
-.erro{
-    display: none;
+#erro{
+    padding: 0px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
 }
 
 .second form label{
