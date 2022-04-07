@@ -2,7 +2,6 @@
 
 body{
     margin: 0px;
-    /*overflow: hidden;*/
     background-image: url("../_img/sky.jpg");
     background-size: cover;
 }
@@ -75,15 +74,6 @@ body{
 }
 
 .first li a:hover{
-    color: rgb(204, 181, 53);
-    transition: 1s;
-}
-
-#register{
-    color: white;
-}
-
-#register:hover{
     color: rgb(204, 181, 53);
     transition: 1s;
 }
@@ -224,7 +214,7 @@ body{
 .btn-create {
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
-    background-color: rgb(204, 181, 53);;
+    background-color: rgb(204, 181, 53);
     color: white;
     outline: none;
     border: none;
