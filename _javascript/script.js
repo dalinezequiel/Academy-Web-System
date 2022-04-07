@@ -4,6 +4,7 @@ function entrar(){
     pass = document.getElementById("senha").value;
 
     element = document.getElementById("user");
+    /*element.style.border = "2px solid red";*/
 
     if(user.length > 0)
     {
