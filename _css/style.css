@@ -301,17 +301,20 @@ body{
 
 .price p{
     padding: 0px;
-    color: green;
+    color: rgb(204, 181, 53);
     font-size: 18px;
 }
 
 .price-number{
     font-size: 38px;
     color: black;
+    color: rgb(204, 181, 53);
 }
 
 .price-det{
     font-size: 15px;
+    color: white;
+    font-weight: 200;
 }
 
 .validad{
