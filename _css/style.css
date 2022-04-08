@@ -54,6 +54,11 @@ body{
     color: white;
 }
 
+.first-logo img{
+    width: 110px;
+    height: 50px;
+}
+
 .first-nav{
     margin-right: 150px;
 }
