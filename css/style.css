@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,100;0,400;1,900&display=swap');
+
+body{
+    margin: 0px;
+    background-image: url("../img/sky.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.popin{
+    font-family: 'Poppins', sans-serif;
+}
+
+#cop{
+    color: rgb(80, 95, 139);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.first-logo{
+    margin-left: 150px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-logo h2{
+    color: white;
+    letter-spacing: 5px;
+}
+
+.first-logo h2 b{
+    border-radius: 5px;
+    padding: 3px;
+    color: rgb(204, 181, 53);
+    font-weight: bold;
+}
+
+.first-logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.first-logo img{
+    width: 117px;
+    height: 50px;
+}
+
+.first-nav{
+    margin-right: 150px;
+}
+
+.first ul{
+    display: flex;
+}
+
+.first li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+}
+
+.first li a{
+    text-decoration: none;
+    padding: 4px 15px 4px 15px;
+    color: white;
+}
+
+.first li a:hover{
+    color: rgb(204, 181, 53);
+    transition: 1s;
+}
+
+.second{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: rgb(41, 57, 99);
+    padding: 30px 35px;
+    border-radius: 10px;
+    border: 2px solid rgb(40, 60, 109);
+    margin-bottom: 50px;
+}
+
+.login div h1{
+    text-align: center;
+    color: rgb(204, 181, 53);
+    font-weight: bold;
+}
+
+.second form{
+    display: flex;
+    flex-direction: column;
+}
+
+.second form input, .country{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#erro{
+    padding: 0px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.second form label{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.btn-submit{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+
+    background-color: rgb(204, 181, 53);
+    font-weight: 800;
+    letter-spacing: 2px;
+    box-shadow: 0px 10px 12px -12px rgb(204, 181, 53);
+}
+
+.spacing{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.login p{
+    font-size: 14px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.login p a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: rgb(204, 181, 53);
+}
+.second{
+    animation-name: anima;
+    animation-duration: 1.5s;
+}
+
+.first, .pacote, .plan-titule, .rodape{
+    animation-name: anima;
+    animation-duration: 2s;
+}
+
+@keyframes anima{
+    from{
+        opacity: 0;
+        transform: scale(0.6);
+    }to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.third{
+    text-align: center;
+    color: rgb(80, 95, 139);
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.third a{
+    text-decoration: none;
+    color: rgb(2, 2, 194);
+}
+
+/*REGISTER PAGE*/
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(41, 57, 99);
+    padding: 30px 40px 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(40, 60, 109);
+    margin-bottom: 10px;
+}
+
+.space{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.formulario h3{
+    color: rgb(204, 181, 53);
+}
+
+.btn-create {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: rgb(204, 181, 53);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    box-shadow: 0px 10px 12px -12px rgb(204, 181, 53);
+}
+
+.must{
+    color: rgb(204, 181, 53);
+}
+
+.country{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/*CONTACT PAGE*/
+.area{
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/*PLANS*/
+.pacote{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pacote h4{
+    color: white;
+}
+
+.basic, .advanced, .profissional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    height: 350px;
+    width: 200px;
+    margin: 0px 15px 0px 15px;
+    padding: 15px 25px 15px 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(41, 57, 99);
+    border: 2px solid rgb(40, 60, 109);
+}
+
+.select-plan{
+    text-decoration: none;
+    background-color: rgb(168, 145, 16);
+    padding: 5px 50px;
+    color: white;
+    border-radius: 2px;
+    border-radius: 25px;
+    margin-bottom: 35px;
+}
+
+.select-plan:hover{
+    background-color: rgb(204, 181, 53);
+    transition: 1s;
+}
+
+.price p{
+    padding: 0px;
+    color: rgb(204, 181, 53);
+    font-size: 18px;
+}
+
+.price-number{
+    font-size: 38px;
+    color: black;
+    color: rgb(204, 181, 53);
+}
+
+.price-det{
+    font-size: 15px;
+    color: white;
+    font-weight: 200;
+}
+
+.validad{
+    color: rgb(80, 95, 139);
+    padding: 15px 0px;
+    font-weight: 500;
+}
+
+.plan-titule{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(204, 181, 53);
+}
+.pacote h4, .plan-titule h3{
+    font-weight: 400;
+}
+
+.rodape{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+/*HOME PAGE*/
+.video-container video{
+    width: 640px;
+    height: 360px;
+}
