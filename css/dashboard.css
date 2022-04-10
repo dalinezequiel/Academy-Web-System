@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,100;0,400;1,900&display=swap');
+
+body{
+    margin: 0px;
+    /*background-image: url("../img/sky.jpg");*/
+    background-size: cover;
+    overflow: hidden;
+    background-color: rgb(19, 22, 32);
+}
+
+.popin{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center;*/
+    width: 100vw;
+    height: 100vh;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: rgb(12, 18, 32);
+}
+
+.first-logo{
+    margin-left: 150px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-logo h2{
+    color: white;
+    letter-spacing: 5px;
+}
+
+.first-logo h2 b{
+    border-radius: 5px;
+    padding: 3px;
+    color: rgb(204, 181, 53);
+    font-weight: bold;
+}
+
+.first-logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.first-logo img{
+    width: 117px;
+    height: 50px;
+}
+
+.first-nav{
+    margin-right: 150px;
+}
+
+.first ul{
+    display: flex;
+}
+
+.first li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+}
+
+.first li a{
+    text-decoration: none;
+    padding: 4px 15px 4px 15px;
+    color: white;
+}
+
+.ng:hover{
+    color: rgb(204, 181, 53);
+    transition: 1s;
+}
+
+.second{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-container video{
+    width: 640px;
+    height: 360px;
+}
+
+.logout{
+    text-decoration: none;
+    background-color: rgb(161, 140, 22);
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+}
+
+.third{
+    text-align: center;
+    color: rgb(80, 95, 139);
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    width: 740px;
+}
+
+.third a{
+    text-decoration: none;
+    color: rgb(2, 2, 194);
+}
+
+.skip{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.skip a{
+    text-decoration: none;
+    padding: 4px 20px 4px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
