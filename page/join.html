@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
+    <script src="../javascript/script.js"></script>
     <div class="container">
         <div class="first">
             <div class="first-logo">
@@ -29,28 +30,22 @@
                 <div>
                     <h3 class="popin">Pre-Registration</h3>
                 </div>
-                <form action="" method="post" onsubmit="">
+                <form name="reg-form" action="" method="post" onsubmit="">
                     <label class="popin" for="">Email<span class="must"> *</span></label>
-                    <input class="space" type="email" id="user" name="email" placeholder="Enter your email">
+                    <input class="space" type="email" id="user" name="email" placeholder="Enter your email" required>
                     <label class="popin" for="">Password<span class="must"> *</span></label>
-                    <input class="space" type="password" id ="senha" name="senha" placeholder="Create a password">
+                    <input class="space" type="password" id ="senha" name="senha" placeholder="Create a password" required>
                     <label class="popin" for="">Username<span class="must"> *</span></label>
-                    <input class="space" type="text" id="user" name="user" placeholder="Enter a username">
-                    <label class="popin" for="">Country<span class="must"> *</span></label>
-                    <select class="popin country">
-                        <option disabled selected>Choose a country</option>
-                        <option>Angola</option>
-                        <option>Ethiopia</option>
-                        <option>Kenya</option>
-                        <option>Mozambique</option>
-                        <option>Portugal</option>
-                        <option>Poland</option>
-                        <option>Tanzania</option>
-                        <option>Russia</option>
-                        <option>South Africa</option>
+                    <input class="space" type="text" id="" name="user" placeholder="Enter a username" required>
+                    <label class="popin" for="">Pricing Plan<span class="must"> *</span></label>
+                    <select mame="plan" class="popin country" id="selec">
+                        <option disabled selected>Choose a plan</option>
+                        <option id="basic">Basic</option>
+                        <option id="advanced">Advanced</option>
+                        <option id="profissional">Profissional</option>
                     </select>
+                    <input class="space btn-create" onclick="" type="submit" value="Register" name="entrar">
                 </form>
-                <input class="space btn-create" onclick="" type="submit" value="Register" name="entrar">
             </div>
             <div class="third">
                 <p>By creating an account you agree to the <a href="">Terms of Services.</a> For more information about Dalin Academy privacy pratices see the <a href="">Dalin Academy Statement.</a></p>

@@ -2,8 +2,8 @@ function access()
 {
     let user, pass;
 
-    let _user = "admin";
-    let _pass = "123";
+    let _user = "tester";
+    let _pass = "da2022";
 
     user = document.getElementById("user").value;
     pass = document.getElementById("senha").value;
@@ -34,3 +34,27 @@ function access()
         return false;
     }
 }
+
+function getId(btn)
+{
+    let id = btn.id;
+    
+    if(id == "basic")
+    {
+        localStorage.setItem("PLAN", id);
+    }else{
+        if(id == "advanced")
+        {
+            localStorage.setItem("PLAN", id);
+        }else
+        {
+            localStorage.setItem("PLAN", id);
+        }
+    }
+}
+
+window.addEventListener('load', () =>{
+    var basic = document.getElementById(localStorage.getItem("PLAN"));
+    basic.selected = true;
+    localStorage.removeItem("PLAN");
+});

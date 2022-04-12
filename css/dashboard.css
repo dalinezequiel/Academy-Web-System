@@ -28,6 +28,7 @@ body{
     justify-content: space-between;
     width: 100vw;
     background-color: rgb(12, 18, 32);
+    box-shadow: 0px 2px 2px rgb(10, 16, 29);
 }
 
 .first-logo{
